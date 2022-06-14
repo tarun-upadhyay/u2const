@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+ width: 98%;
+ margin: auto;
+ margin-top: 8px;
+}
+div>a>img{
+    width: 60%;
+    padding: 7px;   
+}
+#navbar select{
+    margin-left: -600px;
+}
+#navbar button{
+    margin-right: 20px;
+    background-color: 
+    #f37e5d;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: "MuseoSans-700" , sans-serif;
+    border: none;
+    border-radius: 5px;
+}
