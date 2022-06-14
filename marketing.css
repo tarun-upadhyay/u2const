@@ -1,24 +1,29 @@
-*{
-    margin: 0px;
-}
-
 
 #navbar{
     display: flex;
     align-items: center;
- justify-content: space-between;
+ 
  width: 98%;
  margin: auto;
  margin-top: 8px;
+ background-color: white;
+ margin-left: 10px;
 }
 div>a>img{
     width: 60%;
     padding: 7px;   
 }
-#navbar select{
-    margin-left: -600px;
+#navbar>select{
+    margin-left: -80px;
+    border: none;
+    font-size: 16px;
+    font-weight: 550;
+    
 }
-#navbar button{
+#navbar>select:hover{
+    color: #f37e5d;
+}
+select+button{
     margin-right: 20px;
     background-color: 
     #f37e5d;
@@ -32,4 +37,81 @@ div>a>img{
     font-family: "MuseoSans-700" , sans-serif;
     border: none;
     border-radius: 5px;
+    margin-left: 940px;
+    
+}
+
+#middle{
+    
+   padding: 80px;
+background-color: #f8f8f8;
+}
+#middle>div{
+    width: 80%;
+    margin: auto;
+}
+#middle>div>h1{
+    font-size: 50px;
+    font-style: normal;
+    line-height: 65px;
+    color: #4b4b4b;
+    font-weight: 550;
+    font-family: "MuseoSans-700", sans-serif;
+    text-align: center;
+}
+#middle>div>h1+p{
+    text-align: center;
+    font-family: "Merriweather-300", serif;
+    font-size: 22px;
+    font-weight: 300px;
+    font-style: italic;
+    color: #4b4b4b;
+    line-height: 37px;
+    margin-top: -25px;
+}
+p+div{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+p+div>button{
+    padding: 18px 35px;
+    background-color: #f37e5d;
+    color: #ffff;
+    font-family: "MuseoSans-700", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 21px;
+    border: none;
+    border-radius: 5px;
+}
+p+div>button+p{
+    color: #f37e5d;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#inside>p{
+    text-align: center;
+    
+    font-family: "MuseoSans-300" , sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4b4b4b;
+}
+#inside{
+    width: 60%;
+    margin: auto;
+    
+}
+#uppar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#uppar img{
+    width: 25%;
 }
