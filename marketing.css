@@ -145,5 +145,54 @@ p+div>button+p{
     grid-template-columns: repeat(2,1fr);
 width: 60%;
 margin: auto;
-border: 1px solid gold;
+
+}
+#vi>div>h3{
+    font-size: 35px;
+    font-style: normal;
+    line-height: 42px;
+    color: #4b4b4b;
+    font-weight: 550;
+    
+    font-family: "MuseoSans-700", sans-serif;
+    text-align: left;
+}
+#vi>div{
+    padding: 20px;
+}
+#vi>div>p{
+    font-family: "MuseoSans-300", sans-serif;;
+font-size: 17px;
+line-height:29px;
+color: #4b4b4b;
+font-weight: lighter;
+}
+
+#box{ 
+        background: linear-gradient(90deg, #f47f7f 0%, #835ce5 100%);
+        border-radius: 4px;
+        box-shadow: 5px 5px 20px 0rgba(0,0,0,.2);
+        align-items: center;
+        padding: 60px 50px;
+        margin: auto;
+        width: 57%;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #box>div{
+        width: 60%;
+        margin: auto;
+        color: white;
+        font-family: "MuseoSans-700", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 36px;
+        padding: 10px;
+    }
+   
+#box>p{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
