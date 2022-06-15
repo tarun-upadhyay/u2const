@@ -111,7 +111,36 @@ p+div>button+p{
     margin-left: 50px;
     justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: -40px;
 }
-#uppar img{
-    width: 25%;
+#uppar>div>div>img{
+    width: 27%;
+    padding: 20px;
+}
+.overwhite{
+    display: grid;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.overwhite:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.overwhite>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: white
+}
+.overwhite>div>h4{
+    margin-top: 0px;
+    font-family: "MuseoSans-700", sans-serif;
+    line-height: 21px;
+    font-size: 16px;
+    
 }
