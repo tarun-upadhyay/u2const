@@ -390,7 +390,7 @@ padding-left: 10px;
 .cos>div{
     width: 55%;
     justify-content: center;
-    border: 1px red solid;
+    
     margin: auto;
 }
 .cos>div>h2{
@@ -399,7 +399,7 @@ padding-left: 10px;
     font-size: 40px;
     line-height: 52px;
 color: #4b4b4b;
-    border: 1px solid green;
+    
 }
 .cos p {
     font-family: "MuseoSans-300", sans-serif;
@@ -416,10 +416,11 @@ color: #4b4b4b;
     padding: 20px;
     margin-top: -130px;
     background-color: white;
+    border-radius: 4px;
 }
 #calci-left{
     margin-left: 20px;
-    border: 1px solid green;
+    
 }
 #calci-left h4{
     font-family: "MuseoSans-700", sans-serif;
@@ -427,7 +428,7 @@ color: #4b4b4b;
     font-size: 19px;
     line-height: 27px;
     color: #4b4b4b;
-    border: 1px solid;
+    
 }
 .inside_calci>h6{
     font-family: "MuseoSans-300", sans-serif;
@@ -437,10 +438,10 @@ color: #4b4b4b;
     width: 90%;
 }
 .changing_input{
-    vertical-align: top;
+    
     text-align: center;
     margin-left: -8px;
-    border: 1px solid #fba8f8f8;
+    margin-top: -20px;
     display: block;
     font-weight: normal;
     font-family: "MuseoSans-700",sans-serif;
@@ -469,6 +470,37 @@ color: #4b4b4b;
 .changing_input>span:hover{
     background-color: grey;
 }
+#calci-right{
+    border: 1px solid red;
+    padding: 0px 10px;
+    width: 55%;
+    margin-left: 40px;
 
-
+}
+#calci-right>div>h4{
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: 550;
+    font-size: 19px;
+    line-height: 27px;
+    color: #4b4b4b;
+}
+#pig>div>img{
+    width: 60%;
+    
+}
+#pig{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+#pig>div>p{
+    font-family: "MuseoSans-300", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #4b4b4b;
+    font-weight: 400;
+    width: 70%;
+    text-align: center;
+}
 
