@@ -279,21 +279,36 @@ cursor: pointer;
     margin: auto;
     border: 1px saddlebrown solid;
 }
-.heading>h1{
+.head>h1{
     text-align: center;
     font-family:"MuseoSans-700", sans-serif;
     font-weight: 550;
     font-size: 40px;
     line-height: 52px;
     color: #474747;
-    
 }
 #visualize{
     display: flex;
 }
 .left>img{
-   
+   width: 80%;
+   padding-left: 60px;
+   border: 1px solid greenyellow;
 }
-#calender>img{
-    
+#cal>img{
+    width: 8%;
+}
+#cal{
+    border: 1px solid green;
+    display: flex;
+    margin-top: 120px;
+    margin-left: -50px;
+}
+#cal>div{
+    padding: 20px;
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: 550;
+    font-size: 12px;
+    line-height: 17px;
+    color: #474747;
 }
