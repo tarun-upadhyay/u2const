@@ -267,4 +267,33 @@ cursor: pointer;
     display: block;
     margin-top: -5px;
 }
-
+#aim{ 
+    width: 88%;
+    margin-top: 50px;
+}
+#aim>img{
+    width: 100%;
+}
+#explore{
+    width: 80%;
+    margin: auto;
+    border: 1px saddlebrown solid;
+}
+.heading>h1{
+    text-align: center;
+    font-family:"MuseoSans-700", sans-serif;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 52px;
+    color: #474747;
+    
+}
+#visualize{
+    display: flex;
+}
+.left>img{
+   
+}
+#calender>img{
+    
+}
