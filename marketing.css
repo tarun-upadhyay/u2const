@@ -267,13 +267,4 @@ cursor: pointer;
     display: block;
     margin-top: -5px;
 }
-#aim{
-    width: 80%;
-    color: 
-    #f8f8f8;
-    border: 1px solid red;
-}
-.complete{
-    display: flex;
-    justify-content: center;
-}
+
