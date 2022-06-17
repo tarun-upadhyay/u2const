@@ -2,7 +2,6 @@
 #navbar{
     display: flex;
     align-items: center;
- 
  width: 98%;
  margin: auto;
  margin-top: 8px;
@@ -299,7 +298,6 @@ cursor: pointer;
     width: 8%;
 }
 #cal{
-    
     display: flex;
     margin-top: 120px;
     padding-left: 10px;
@@ -381,6 +379,70 @@ padding-left: 10px;
     #9270e8;
     color: white;
     cursor: pointer;
+}
+.cos{
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: auto;
+    padding: 60px;
+    padding-bottom: 200px;
+}
+.cos>div{
+    width: 55%;
+    justify-content: center;
+    border: 1px red solid;
+    margin: auto;
+}
+.cos>div>h2{
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 52px;
+color: #4b4b4b;
+    border: 1px solid green;
+}
+.cos p {
+    font-family: "MuseoSans-300", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #4b4b4b;
+}
+#calci{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin-top: -130px;
+}
+#calci-left{
+    
+    border: 1px solid green;
+}
+#calci-left h4{
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: 550;
+    font-size: 19px;
+    line-height: 27px;
+    color: #4b4b4b;
+    border: 1px solid;
+}
+.inside_calci>h6{
+    font-family: "MuseoSans-300", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    width: 90%;
+}
+.changing_input{
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+    border: 1px solid #f8f8f8;
+    font-weight: normal;
+    font-family: "MuseoSans-700",sans-serif;
+    flex: 1 0 auto;
 }
 
 
