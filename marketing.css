@@ -275,9 +275,10 @@ cursor: pointer;
     width: 100%;
 }
 #explore{
-    width: 80%;
+    width: 84%;
     margin: auto;
-    border: 1px saddlebrown solid;
+    margin-top: 100px;
+    
 }
 .head>h1{
     text-align: center;
@@ -291,18 +292,17 @@ cursor: pointer;
     display: flex;
 }
 .left>img{
-   width: 80%;
+   width: 90%;
    padding-left: 60px;
-   border: 1px solid greenyellow;
 }
 #cal>img{
     width: 8%;
 }
 #cal{
-    border: 1px solid green;
+    
     display: flex;
     margin-top: 120px;
-    margin-left: -50px;
+    padding-left: 10px;
 }
 #cal>div{
     padding: 20px;
@@ -310,5 +310,41 @@ cursor: pointer;
     font-weight: 550;
     font-size: 12px;
     line-height: 17px;
-    color: #474747;
+    color: #4b4b4b;
+}
+.right>h2{
+    
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: 550;
+font-size: 32px;
+line-height: 42px;
+color: #4b4b4b;
+width: 66%;
+padding-left: 10px;
+
+}
+.right>p{
+    font-family: "MuseoSans-300", sans-serif;
+    width: 80%;
+    line-height: 29px;
+    color: #4b4b4b;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 10px;
+
+}
+.right>button{
+    color: #f37e5d;
+    border-color: #f37e5d;
+    background: white;
+    padding: 12px 30px;
+    min-width: auto;
+    font-size: 13px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+.right>button:hover{
+    background-color: #f37e5d;
+    color: #f8f8f8;
 }
