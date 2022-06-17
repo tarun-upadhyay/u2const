@@ -167,7 +167,7 @@ color: #4b4b4b;
 font-weight: lighter;
 }
 
-#box{ 
+.box{ 
         background: linear-gradient(90deg, #f47f7f 0%, #835ce5 100%);
         border-radius: 4px;
         box-shadow: 5px 5px 20px 0rgba(0,0,0,.2);
@@ -178,7 +178,7 @@ font-weight: lighter;
         margin-top: 100px;
         text-align: center;
     }
-    #box>div{
+    .box>div{
         width: 60%;
         margin: auto;
         color: white;
@@ -189,12 +189,12 @@ font-weight: lighter;
         padding: 10px;
     }
    
-#box>p{
+.box>p{
     color: white;
     text-decoration: underline;
     cursor: pointer;    
 }
-#box>button{
+.box>button{
     margin-top: 12px;
     padding: 18px 35px;
     background-color: #ffff;
@@ -471,7 +471,7 @@ color: #4b4b4b;
     background-color: grey;
 }
 #calci-right{
-    border: 1px solid red;
+    
     padding: 0px 10px;
     width: 55%;
     margin-left: 40px;
@@ -493,6 +493,7 @@ color: #4b4b4b;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
+    row-gap: -10px;
 }
 #pig>div>p{
     font-family: "MuseoSans-300", sans-serif;
@@ -503,4 +504,43 @@ color: #4b4b4b;
     width: 70%;
     text-align: center;
 }
+#calculate_your{
+    border: none;
+    margin: 70px 10px;
+    margin-left: 30px;
+    width: 80%;
+    padding: 10px 40px;
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 13px;
+    color: white;
+    background-color: #f37e5d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#box-2{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "MuseoSans-300", sans-serif;
+    color: #ffffff;
+   line-height: 29px;
+    text-decoration: none;
+    cursor:auto;
 
+}
+#box-3{
+    text-decoration: none;
+    cursor:auto;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "MuseoSans-300", sans-serif;
+    color: #ffffff;
+   line-height: 29px;
+   margin-top: -16px;
+}
+footer>img{
+    width: 99%;
+    margin: 70px 0px 10px 0;
+    cursor: pointer;
+}
