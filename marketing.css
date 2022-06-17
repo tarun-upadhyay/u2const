@@ -346,4 +346,41 @@ padding-left: 10px;
 .right>button:hover{
     background-color: #f37e5d;
     color: #f8f8f8;
+    cursor: pointer;
 }
+#blue{
+    border-color: 
+    #4ab7fa;
+    color: 
+    #4ab7fa;
+    cursor: pointer;
+
+}
+#blue:hover{
+    background-color: 
+    #4ab7fa;
+    color: white;
+}
+#red{
+    border-color: #f29c9c;
+    color: #f29c9c;
+    cursor: pointer;
+}
+#red:hover{
+    background-color: #f29c9c;
+    color: white;
+}
+#purple{
+    border-color: 
+    #9270e8;
+    color: 
+    #9270e8;
+}
+#purple:hover{
+    background-color: 
+    #9270e8;
+    color: white;
+    cursor: pointer;
+}
+
+
