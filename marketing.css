@@ -415,9 +415,10 @@ color: #4b4b4b;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px;
     margin-top: -130px;
+    background-color: white;
 }
 #calci-left{
-    
+    margin-left: 20px;
     border: 1px solid green;
 }
 #calci-left h4{
@@ -438,11 +439,36 @@ color: #4b4b4b;
 .changing_input{
     vertical-align: top;
     text-align: center;
-    outline: none;
-    border: 1px solid #f8f8f8;
+    margin-left: -8px;
+    border: 1px solid #fba8f8f8;
+    display: block;
     font-weight: normal;
     font-family: "MuseoSans-700",sans-serif;
-    flex: 1 0 auto;
+
+    
 }
+.changing_input>input{
+    border: none;
+    padding: 0;
+    text-align: center;
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0px;
+    
+}
+
+.changing_input>span{
+    background-color: 
+    #f8f8f8;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.changing_input>span:hover{
+    background-color: grey;
+}
+
 
 
